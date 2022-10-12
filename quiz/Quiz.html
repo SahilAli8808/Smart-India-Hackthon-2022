@@ -1,0 +1,143 @@
+
+<html>
+<head>
+<!-- <style>
+/* * div{background:orange; width:300px; height:200px;  display:none;} */
+.bttn{display:block;}
+</style> */ -->
+<link rel="stylesheet" href="style.css">
+<!-- <script>
+	function goto(Arg)
+	{
+		var arr = ['d0','d1','d2','d3','d4','d5','d6'];
+		for(i=0;i<7;i++)
+		{
+			if(i!=Arg)
+			{
+				document.getElementById(arr[i]).style.display="none";
+			}
+			else
+			{
+				document.getElementById(arr[i]).style.display="block";
+			}
+		}
+		if(Arg==6)
+		 {
+			for(var i=1;i<=5;i++)
+			{
+				var qe = document.getElementsByName('q'+i);
+				for(var j=0;j<4;j++)
+				{
+					if(qe[j].checked)
+					{
+						document.getElementById('ans'+i).innerHTML = qe[j].value;
+					}
+				}
+			}
+           
+		}
+	}
+</script> -->
+</head>
+<body>
+	<form action="" class="mcq-form">
+	<div id="d0" style="display:block;">
+		<h1>Instructions</h1>
+		<ol>
+			<li>Total 5 Question</li>
+			<li>you have to attempt all Questions</li>
+		</ol>
+		<!-- <div class="bttn">
+			<a href="#" onclick="goto(1)">Next</a>
+		</div> -->
+	</div>
+	<div id="d1">
+	Question 1:<br>
+		<ol>
+			<li><input value="Delhi"     type="radio" name="q1">Delhi</li>
+			<li><input value="Mumbai"    type="radio" name="q1">Mumbai</li>
+			<li><input value="Pune"      type="radio" name="q1">Pune</li>
+			<li><input value="Banglore"  type="radio" name="q1">Banglore</li>
+		</ol>
+		<!-- <div class="bttn">
+			<a href="#" onclick="goto(0)">Pre</a>
+			<a href="#" onclick="goto(2)">Next</a>
+		</div> -->
+	</div>
+	
+	<div id="d2">
+	Question 2:-<br>
+		<ol>
+			<li><input value="Delhi"type="radio" name="q2">Delhi</li>
+			<li><input value="Mumbai"type="radio" name="q2">Mumbai</li>
+			<li><input value="Pune"type="radio" name="q2">Pune</li>
+			<li><input value="Banglore"type="radio" name="q2">Banglore</li>
+		</ol>
+		<!-- <div class="bttn">
+			<a href="#" onclick="goto(1)">Pre</a>
+			<a href="#" onclick="goto(3)">Next</a>
+		</div> -->
+	</div>
+	
+	<div id="d3	">
+	Question 3:-<br>
+		<ol>
+			<li><input type="radio" value="Delhi"  name="q3">Delhi</li>
+			<li><input type="radio" value="Mumbai" name="q3">Mumbai</li>
+			<li><input type="radio" value="Pune"   name="q3">Pune</li>
+			<li><input type="radio" value="Banglore"name="q3">Banglore</li>
+		</ol>
+		<!-- <div class="bttn">
+			<a href="#" onclick="goto(2)">Pre</a>
+			<a href="#" onclick="goto(4)">Next</a>
+		</div> -->
+	</div>
+
+	<div id="d4">
+	Question 4:-<br>
+		<ol>
+			<li><input value="Delhi" type="radio" name="q4">Delhi</li>
+			<li><input value="Mumbai" type="radio" name="q4">Mumbai</li>
+			<li><input value="Pune" type="radio" name="q4">Pune</li>
+			<li><input value="Banglore" type="radio" name="q4">Banglore</li>
+		</ol>
+		<!-- <div class="bttn">
+			<a href="#" onclick="goto(3)">Pre</a>
+			<a href="#" onclick="goto(5)">Next</a>
+		</div> -->
+	</div>
+	
+	<div id="d5">
+	Question 5:-<br>
+		<ol>
+			<li><input type="radio" value="Delhi" name="q5">Delhi</li>
+			<li><input type="radio" value="Mumbai" name="q5">Manipal</li>
+			<li><input type="radio" value="Pune" name="q5">Puducherry</li>
+			<li><input type="radio" value="Banglore" name="q5">Bengal</li>
+		</ol>
+		<!-- <div class="bttn">
+			<a href="#" onclick="goto(4)">Pre</a>
+			<a href="#" onclick="goto(6)">Next</a>
+		</div> -->
+	</div>
+	<button type="submit">submit</button>
+	
+	<!-- <div id="d6">
+		Ans 1<br>
+		<label id="ans1"></label><br><br>
+		
+		Ans 2<br>
+		<label id="ans2"></label><br><br>
+		
+		Ans 3<br>
+		<label id="ans3"></label><br><br>
+			
+		Ans 4<br>
+		<label id="ans4"></label><br><br>
+		
+		Ans 5<br>
+		<label id="ans5"></label><br><br>
+	</div> -->
+</form>
+</body>
+</html>

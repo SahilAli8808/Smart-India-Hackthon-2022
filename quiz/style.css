@@ -1,0 +1,60 @@
+ body{
+	 background:#eeeeee;
+ }
+ .grid{
+	 width:600px;
+	 height: 500px;
+	 margin:0 auto;
+	 background:#fff;
+	 padding:10px 50px 50px 50px;
+	 border-radius: 50px;
+	 border:2px solid ;
+	 box-shadow:10px 15px 5px #cbcbcb;
+ }
+ .grid h1{
+	 font-family:sans-serif;
+	 background:#57636e;
+	 font-size:60px;
+	 text-align:center;
+	 color:#fff;
+	 padding:2px 0px;
+	 border-radius:50px
+ }
+ 
+ .grid #Qs{
+	 font-size:30px;
+	 font-size:sens-serif;
+	 color:#5a6772;
+ }
+ .button{
+	 margin-top:30px;
+}
+ #but0, #but1, #but2, #but3{
+	 background:#778897;
+	 width:250px;
+	 color:#fff;
+	 font-size:20px;
+	 border:1px solid #1d3c6a;
+	 border-radius:50px;
+	 margin:10px 40px 10px 0px;
+	 padding:10px 10px;
+ }
+ 
+ #pro{
+	 color:#2b2b2b;
+	 font-size:18px;
+ }
+ .mcq-form{
+	width:600px;
+	 height: 500px;
+	 margin:0 auto;
+	 background:#fff;
+	 padding:10px 50px 50px 50px;
+	 border-radius: 50px;
+	 border:2px solid ;
+	 box-shadow:10px 15px 5px #cbcbcb;
+
+ }
+ .mcq-form [type='radio']{
+	  width: 40px;
+ }

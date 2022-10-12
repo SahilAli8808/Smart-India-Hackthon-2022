@@ -1,0 +1,14 @@
+.wrapper {
+    /* position: fixed;
+width: 100%;
+overflow: hidden; */
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    height: 80px;
+    background-color: #1B2631;
+}
+.logo
+{
+    margin-top: 32px;
+}

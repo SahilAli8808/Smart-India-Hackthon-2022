@@ -1,0 +1,40 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+.photos li{
+    display: inline-flex;
+
+}
+.photos li:nth-child(2){
+    position: absolute;
+    top:320px;
+    left: 710px;
+    font-size: 32px; 
+    color: black;    
+}
+
+img{
+    margin: 100px 50%;
+    border: 1px solid black;
+    
+
+}
+#time{
+    color: black;
+    position: relative;
+}
+.btn1 button{
+    position: absolute;
+     padding: 10px 50px;
+     border-radius: 5px;
+     /* margin-top: 50%;
+     margin-left: 45%; */
+     top:45%;
+    left: 45%;
+}
+.photos{
+    width: 200px;
+    height: 800px;
+}

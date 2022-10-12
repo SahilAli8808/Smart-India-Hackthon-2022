@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    
+    
+}
+.logo, li, .btn, a, .sub-btn{
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    font-family: "poppins", sans-serif;
+    
+}
+
+.navbar{
+    
+    background-color: #34495e;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    font-family: "poppins", sans-serif;
+   
+}
+
+.logo{
+   margin-right: auto;
+    color: white;
+    padding: 12px 25px;
+    font-size: 20px;
+}
+
+.link-list{
+    
+    float: right;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.link-list li{
+    
+   list-style: none;
+   padding: 15px 20px;
+  
+  
+
+}
+
+
+.link-list li a{ 
+    text-decoration: none;
+   color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 9px;
+    border-radius: 2px;
+    
+ }
+ .link-list li a:hover{ 
+    border: 1px  solid white;
+    transition: .5s;
+     
+  }
+
+
+ .btn{
+    padding: 8px 12px;
+    border: none;
+   background-color: white; 
+   border-radius: 50px;
+   cursor: pointer;
+    margin-right: 12px;
+    }
+
+    .btn:hover{
+       
+       background-color: grey; 
+   
+       }
+    .sctn{
+        width: 360px;
+        height: 260px;
+        margin:auto;
+        margin-top: 40px;
+       background-color: white;
+   
+
+        
+    }
+    .heading{
+        text-align: center;
+        padding: 15px 15px;
+        border-bottom: 1px solid black;
+
+    }
+   
+    
+    
+label{
+    display: flex;
+    padding-left: 80px;
+    margin: auto;
+}
+
+
+
+
+
+
+

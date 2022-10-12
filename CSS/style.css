@@ -1,0 +1,90 @@
+@import url(//db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten+Bold);
+@import url(//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css);
+body,
+html {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#dLink {
+    list-style: none;
+    float: left;
+    
+}
+
+.banner {
+    padding: 0;
+    height: 30rem;
+    max-height: 100rem;
+}
+
+.banner_name {
+    position: absolute;
+    top: -120px;
+    left: 240px;
+}
+
+.banner_name h1 {
+    font-size: 80px;
+    font-family: 'The Historia Demo', sans-serif;
+    background: linear-gradient(#f0c800ce, #ff5a3dcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+.col-sm {
+    border: 1px solid #000;
+    float: left;
+    margin-left: 20px;
+}
+
+.contant {
+   
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    float: left;
+    margin-left: 20px;
+}
+
+
+/* footer */
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    background: #1B2631;
+}
+
+.copyright {
+    color: white;
+    margin-bottom: 0;
+}
+
+footer img {
+    margin: 0 auto;
+}
+
+.foot-size {
+    color: white;
+}
+
+.cards {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer-logo {
+    margin-top: -150px;
+}
+.site-map{
+    height: 100px;;
+    width: 200px;
+    margin-top: -80px;
+}

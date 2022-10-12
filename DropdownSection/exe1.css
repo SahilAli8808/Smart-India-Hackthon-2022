@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+
+    margin:0;
+    padding:0;
+    background-color: #2e4052;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+main{
+    margin:5rem auto;
+    border:1px solid black;
+    border-radius:5px;
+    padding:10px;
+    width:60%;
+    background-color: white;
+}
+
+.content{
+    width:20%;
+    margin:5px auto;
+    overflow:hidden;
+    display: relative;
+    color: white;
+    background-color:  #2e4052;
+    border-radius:5px;
+    font-size: 1.2rem;
+    padding:10px;
+}
+button{
+    margin:10px 40%;
+    padding:5px;
+    background-color: white;
+    color: #293f88;
+    padding: 2px 2px 2px 2px ;
+    border: 1px solid #293f88;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+button:hover{
+    color: white;
+    background-color: #293f88 ;
+    cursor: pointer;
+}
+.wrapper{
+    display:flex;
+    flex-wrap: nowrap;
+    min-width: 500px;
+    min-height: 500px;
+    
+}
+.result1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-right:5  0px;
+    display: none;
+    position:relative;      
+    background-color:#2e4052;
+    color: white;
+    height:50%;
+    border-radius: 5px;
+}
+.test{
+    display:none;
+}
+.result2{
+    display:none;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+    color: #293f88;
+
+}
+.btn btn-primary {
+margin-left: 50%;
+}
+.wrapp{
+    /* position: fixed;
+width: 100%;
+overflow: hidden; */
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    height: 80px;
+    background-color: #1B2631;
+}
+#imglogo
+{
+    margin-top: 25px;
+    margin-left: -20px;
+}
+#tt{
+    display: inline;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-top: -10px;
+}
+#tt{
+    font-size: 20px;
+    position: fixed;
+    /* margin-right: -50px; */
+   left: 800px;
+    
+}
+#next{
+    margin: auto 34%;
+}
+#nextExercise{
+color: #293f88!important;
+}
+a:hover{
+    color: white;
+}

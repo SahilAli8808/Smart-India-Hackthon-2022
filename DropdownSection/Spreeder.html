@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Speed Reading</title>
+    <link rel="stylesheet" type="text/css" href="spreederStyle.css">
+</head>
+
+<body onload="timer()">
+    <header class="wrapp">
+
+ 
+        <div>   
+        <a href="../index.php"> 
+                <img id="imglogo" src="../images/logo.png"  alt="img" width="300px" height="300px"> </a> 
+                </div>
+        
+        </header>
+    <h2 align="center" style="color:white">Exercise 2: Subvocalization </h2>
+ 
+    <!-- <label>Time:<span id="time">0</span>Sec</label> -->
+    <li style="list-style: none;text-align: center;" id="litime" >Time :<span id="time">0</span>sec</li>
+    <div class="inline"></div>
+    <div id="content">
+
+
+        Subvocalization is automatically done by mind to reduce what is called cognitive load by easily relating the
+        meaning of the text. It is something that we develop naturally while we read. Subvocalization however limits
+        your reading speed. A person's vocalization and subvocalization speed is the same.
+        But you may have noticed that you don't need to read everything word by word or character by character to
+        understand it for example the year 1947 you don't need to read ‘nineteen hundred and forty seven’ to understand
+        its the years 1947 ,you may do the same thing with common grammar, like articles and conjunctions and all the
+        other words that you may be familiar with. Though subvocalization is helpful in understanding text
+        easily it also limits the reader’s speed, so you only read at a speed that you usually talk at, i.e 150 to 200
+        wpm for people who read normally.
+
+
+    </div>
+    <div id="btn">
+    <ul>
+        <li><button onclick="start()">Start</button></li>
+        <li><button onclick="stop()">Stop</button></li>
+        <li><button onclick="speed1()">1x</button></li>
+        <li><button onclick="speed2()">2x</button></li>
+        <li><button><a href="./Skimming/Skimming.php">Next</a></button></li>
+        
+    </ul>
+    </div>
+       <div>
+        
+       </div>
+
+    <script type="text/javascript" src="timereader.js"></script>
+</body>
+
+<script type="text/javascript">
+var c = 0;
+// var t;
+function timer() {
+    document.getElementById('time').innerHTML = c;
+    c++;
+    setTimeout('timer()', 1000);
+
+}
+</script>
+
+</html>
